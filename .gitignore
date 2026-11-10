@@ -20,3 +20,4 @@ conda-env/
 
 # Generierte Dateien
 data/outputs/
+text.py
