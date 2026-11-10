@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Umgebungen
+.venv/
+venv/
+conda-env/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Lokale Konfiguration
+.env
+
+# Generierte Dateien
+data/outputs/
