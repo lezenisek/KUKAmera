@@ -42,8 +42,10 @@ binary = cv2.morphologyEx(
     kernel
 )
 
+cv2.imshow('binary', binary)
+cv2.waitKey(0)
 skeleton = skeletonize(binary)
-
-
-io.imsave('../bilder/skeleton.png', skeleton)
-
+cv2.imwrite(
+    '../bilder/skeleton.png',
+    (skeleton.astype('uint8') * 255)
+)
